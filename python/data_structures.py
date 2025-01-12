@@ -4,7 +4,10 @@ class Datastructures:
 
     def list_operation(self):
         print("\n --- list operation ---")
+        print("example_list : {}".format(self.example_list))
+        print(f"example_list : {self.example_list}")
+        print(f"example_list :"self.example_list)
 
-if __name =="__min__":
+if __name__ =="__main__":
     data_structures = Datastructures()
     data_structures.list_operation()
